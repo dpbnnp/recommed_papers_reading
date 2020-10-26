@@ -23,3 +23,8 @@
 概率到达优先度较高的邻居上（这个策略有点复杂，也有点意思，可以看看）。然后建立基于路径的上下文键入，首先对单个路径实例进行嵌入，再对元路径进行嵌入，再聚集元
 路径（注意力）。学到表征之后进行预测。
 16. Metadata Embeddings for User and Item Cold-startRecommendations.pdf
+17. Handling Information Loss of Graph Neural Networks forSession-based Recommendation.pdf：传统的GNN无法解决序列推荐问题，主要原因还是因为输入有问题。这篇文章改变了图结构提出了EOPA
+SGAT这两种图结构，试图解决图无法唯一表示一个会话问题，以及保留了时序问题。要求图中的节点之间必须有时序关系，其它的上下文只能作为边或者节点的属性。忽略了路径的长度。
+
+18. Heterogeneous Network Representation Learning.pdfKDD-An Efficient Neighborhood-based Interaction Mode
+19. Gemini A Novel and Universal Heterogeneous GraphInformation Fusing Framework for Online Recommendations
